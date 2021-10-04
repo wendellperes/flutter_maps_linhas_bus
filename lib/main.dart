@@ -1,4 +1,6 @@
 import 'package:appmapas/maps_page.dart';
+import 'package:appmapas/mercado_pago_integration.dart';
+import 'package:appmapas/paypalservices/paypalview.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: mapPage(),
+      home: paypalview(),
     );
   }
 }
